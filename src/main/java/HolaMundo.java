@@ -14,7 +14,11 @@ public class HolaMundo {
 			int negro = leer.nextInt();
 			System.out.println("2 para hundir una patera");
 			int patera = leer.nextInt();
+			leer.close();
 		} while (opcion == false);
+		
+		System.out.println("MATEMOS TODOS LOS NEGROS");
+		
 
 	}
 
